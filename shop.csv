@@ -1,0 +1,10 @@
+[{"PRODUCT":"iPhone 9", "price":549, "rating":4.69, "category":"smartphones", "brand":"Apple", "id":14},
+ {"PRODUCT":"iPhone X", "price":899, "rating":4.44, "category":"smartphones", "brand":"Apple", "id":15},
+ {"PRODUCT":"Samsung Universe 9", "price":1249, "rating":4.09, "category":"smartphones", "brand":"Samsung", "id":16},
+ {"PRODUCT":"OPPO F19", "price":280, "rating":4.3, "category":"smartphones", "brand":"OPPO", "id":17},
+ {"PRODUCT":"Huawei P30", "price":499, "rating":4.09, "category":"smartphones", "brand":"Huawei", "id":18},
+ {"PRODUCT":"MacBook Pro", "price":1149, "rating":4.57, "category":"laptops", "brand":"Apple", "id":19},
+ {"PRODUCT":"Samsung Galaxy Book ", "price":1499, "rating":4.25, "category":"laptops", "brand":"Samsung", "id":20},
+ {"PRODUCT":"Microsoft Surface Laptop 4", "price":1499, "rating":4.43, "category":"laptops", "brand":"Microsoft Surface", "id":21},
+ {"PRODUCT":"Infinix INBOOK", "price":1099, "rating":4.54, "category":"laptops", "brand":"Infinix", "id":22},
+ {"PRODUCT":"HP Pavilion 15-DK1056WM", "price":1099, "rating":4.43, "category":"laptops", "brand":"HP Pavilion", "id":23}]

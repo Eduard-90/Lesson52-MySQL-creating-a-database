@@ -1,0 +1,29 @@
+CREATE TABLE `product` (
+  `PRODUCT` varchar(128) DEFAULT NULL,
+  `price` smallint DEFAULT NULL,
+  `rating` decimal(4,3) DEFAULT NULL,
+  `category` varchar(128) DEFAULT NULL,
+  `brand` varchar(128) DEFAULT NULL,
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`),
+  KEY `PRODUCT` (`PRODUCT`(20)),
+  KEY `PRODUCT_2` (`PRODUCT`(20)),
+  KEY `PRODUCT_3` (`PRODUCT`(20)),
+  KEY `PRODUCT_4` (`PRODUCT`(20)),
+  KEY `price` (`price`),
+  KEY `PRODUCT_5` (`PRODUCT`(20)),
+  KEY `price_2` (`price`),
+  KEY `rating` (`rating`),
+  KEY `category` (`category`(20)),
+  KEY `brand` (`brand`(20))
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+SELECT product FROM product WHERE brand="Apple";
+
+SELECT product FROM product WHERE price<"1000";
+
+SELECT product FROM product WHERE price BETWEEN "500" AND "1500";
+
+SELECT product, price, rating FROM product WHERE brand IN ("Apple", "Samsung", "Huawei");
+
+SELECT product, category FROM product WHERE product LIKE "Samsung%";
